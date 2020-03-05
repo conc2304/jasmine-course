@@ -1,0 +1,15 @@
+<div class="mainContainer">
+  <header>
+    <h1>my posts</h1>
+  </header>
+  <ul>
+    <li>
+      <h2>post title</h2>
+      <p>post description</p>
+      <p class="globalTotalLikes">Total Likes: {{ totalLikes }}</p>
+      <button class="like" (click)="like()">like</button>
+      <button class="dislike" (click)="dislike">dislike</button>
+    </li>
+  </ul>
+
+</div>
